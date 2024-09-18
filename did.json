@@ -21,7 +21,7 @@
   "services": [
     {
       "id": "did:web:opsecid.github.io:acapy-did-web-demo#github",
-      "type": "LinkedDomain",
+      "type": "LinkedDomains",
       "serviceEndpoint": "https://github.com/{{organization}}/acapy-did-web-demo"
     }
   ]
