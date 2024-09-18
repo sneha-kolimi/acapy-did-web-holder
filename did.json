@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2"
+  ]
+  "id": "did:web:{{organization}}.github.io:acapy-did-web-demo",
+  "verificationMethod": [{
+    "id": "did:web:{{organization}}.github.io:acapy-did-web-demo#verkey",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:web:{{organization}}.github.io:acapy-did-web-demo",
+    "publicKeyBase58": "{{verkey}}"
+  }],
+  "assertionMethod": ["did:web:{{organization}}.github.io:acapy-did-web-demo#verkey"],
+  "authentication": ["did:web:{{organization}}.github.io:acapy-did-web-demo#verkey"],
+  "services": [{
+    "id": "did:web:opsecid.github.io:acapy-did-web-demo#github",
+    "type": "LinkedDomain",
+    "serviceEndpoint": "https://github.com/{{organization}}/acapy-did-web-demo"
+  }]
+}
