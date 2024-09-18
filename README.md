@@ -1,4 +1,4 @@
-# acapy-did-web-demo
+# ACA-PY DID Web Demo
 
 ## Setup the project
 
