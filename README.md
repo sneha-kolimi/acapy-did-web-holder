@@ -24,7 +24,7 @@ Capture the verkey from the response.
 
 ## Update did doc template
 
-Edit the [did.json](.did.json) document. 
+Edit the [did.json](did.json) document. 
 - Replace all organization placeholders with the name of your github organization and insert the verkey.
 - *Make sure you are on the new `gh-pages` branch.*
 
