@@ -9,7 +9,7 @@
       "id": "did:web:sneha-kolimi.github.io:acapy-did-web-demo#verkey",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:sneha-kolimi.github.io:acapy-did-web-demo",
-      "publicKeyBase58": "H2vyUDgkBDKChzfErWF7yqR7Gxu92W3vX4aEPfuWhXrn"
+      "publicKeyBase58": "BHdyj3H875S9S95cvyg61DbefDrXaX8YigXiv8bFqSuG"
     }
   ],
   "assertionMethod": [
