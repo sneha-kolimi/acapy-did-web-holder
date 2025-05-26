@@ -25,3 +25,4 @@ Edit the [did.json](did.json) document.
 - *Make sure you are on the new `gh-pages` branch.*
 
   Once you commit these changes, wait for the page to be deployed and your did should now be useable.
+# -acapy-did-web-holder
