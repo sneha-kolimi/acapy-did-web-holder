@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2"
+  ],
+  "id": "did:web:sneha-kolimi.github.io:acapy-did-web-holder",
+  "verificationMethod": [
+    {
+      "id": "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:sneha-kolimi.github.io:acapy-did-web-holder",
+      "publicKeyBase58": "AQCQJYGZgQdRctd3E1zX5yvALZ8FVwUyZS5gjB15Jmo3"
+    }
+  ],
+  "authentication": [
+    "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey"
+  ]
+}
