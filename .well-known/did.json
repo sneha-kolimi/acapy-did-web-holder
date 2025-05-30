@@ -3,19 +3,26 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/v2"
   ],
-  "id": "did:web:sneha-kolimi.github.io:acapy-did-web-holder",
+  "id": "did:web:sneha-kolimi.github.io:acapy-did-web-demo",
   "verificationMethod": [
     {
-      "id": "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey",
+      "id": "did:web:sneha-kolimi.github.io:acapy-did-web-demo#verkey",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:sneha-kolimi.github.io:acapy-did-web-holder",
-      "publicKeyBase58": "AQCQJYGZgQdRctd3E1zX5yvALZ8FVwUyZS5gjB15Jmo3"
+      "controller": "did:web:sneha-kolimi.github.io:acapy-did-web-demo",
+      "publicKeyBase58": "C2YHbt4B5zHYKdmicrfMAtN7N3EXthUqp4Yeo386m54X"
     }
   ],
-  "authentication": [
-    "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey"
-  ],
   "assertionMethod": [
-    "did:web:sneha-kolimi.github.io:acapy-did-web-holder#verkey"
+    "did:web:sneha-kolimi.github.io:acapy-did-web-demo#verkey"
+  ],
+  "authentication": [
+    "did:web:sneha-kolimi.github.io:acapy-did-web-demo#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:opsecid.github.io:acapy-did-web-demo#github",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://github.com/sneha-kolimi/acapy-did-web-demo"
+    }
   ]
 }
